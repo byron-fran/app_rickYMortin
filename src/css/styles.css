@@ -1,0 +1,21 @@
+.navagacionActiva{
+    border-bottom: solid 3px #1AEAA5;
+    transition-property: border-bottom;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    
+}
+
+@media (min-width: 768px) {
+    .imagen-rick{
+    animation: nave-rick 3s ease ;
+    }
+    @keyframes nave-rick {
+        0%{
+            margin-bottom: 20rem;
+        }
+        100%{
+            margin-bottom: 0;
+        }
+    }
+}
